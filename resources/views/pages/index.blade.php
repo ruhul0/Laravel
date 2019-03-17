@@ -1,9 +1,8 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>{{config('app_name', 'test')}}</title>
+        <title>{{config('app.name', 'test')}}</title>
+    <body>
+        <h1>Welcome to laravel</h1>
     </body>
 </html>

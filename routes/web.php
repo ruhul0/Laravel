@@ -23,3 +23,4 @@ Route::get('/test/{id}/{name}', function ($id,$name) {
 });
 */
 Route::get('/', 'PagesController@index');
+Route::get('about','PagesController@about');
