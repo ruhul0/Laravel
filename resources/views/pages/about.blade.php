@@ -1,1 +1,6 @@
-<h1>about</h1>
+@extends('layouts.app')
+
+@section('content')
+<h1><?php echo $title?></h1>
+<p>this is about</p>
+@endsection
